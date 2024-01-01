@@ -1,0 +1,13 @@
+We can't control both the width and height if we allow an arbitary string?
+
+So we will throw an error if height and width are specified and the string doesn't fit?
+
+Else we let width be specified and the keep adding lines to the maze?
+
+We need to have the width and height of letters in order to do these calculations, we can write a quick script to figure that out
+
+Ok so steps:
+
+1. Fix how we add letters so the maze still works
+2. Allow multiple letters to be added
+3. Make width and height checks
